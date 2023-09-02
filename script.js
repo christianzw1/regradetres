@@ -15,9 +15,4 @@ document.getElementById('calculate').addEventListener('click', function () {
     } else {
         document.getElementById('result').textContent = result.toFixed(2).replace('.',',');
     }
-
-    
-
-
-    
 })
